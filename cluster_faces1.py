@@ -51,7 +51,6 @@ def main(encodings_path):
     # Load known face encodings
     known_encodings = []
     known_names = []
-    # Replace with your own code to load known face encodings and names
 
     # Create the 'output' folder if it doesn't exist
     output_folder = os.path.join(CLUSTERING_RESULT_PATH, 'output')
